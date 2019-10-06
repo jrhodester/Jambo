@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Doctor</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href = "Doctor.css" >
+</head>
+
+<body>
+
+
+<!-- Sidebar/menu -->
+<nav class="sidebar"   id="mySidebar"><br>
+  <h2 class="TitleName"><b>JACK<br>WEATHERILL</b></h2>
+
+<div class = "sidebarmenu">
+	<ul>
+	<li><a href="#portfolio" onclick="w3_close()" class="sidebarlinks">PORTFOLIO</a> </li>
+  <li><a href="#about" onclick="w3_close()" class="sidebarlinks">ABOUT ME</a> </li>
+  <li><a href="#contact" onclick="w3_close()" class="sidebarlinks">CONTACT</a> </li>
+	<li><a href = "https://bbc.co.uk">
+		<img class = "socialmedialink" src = "https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+	</a>
+</ul>
+</div>
+</nav>
+
+<!--Pictures-->
+<p> Look at all of my pictures that i take </p>
+<!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third" id = "#portfolio">
+      <img src="https://i.ytimg.com/vi/hMY8gBUwHEU/maxresdefault.jpg" style="width:33%" onclick="onClick(this)" alt="Canoeing again">
+			<p class = w3-thirdtext>Matt smith as the doctor</p>
+      <img src="https://images.immediate.co.uk/production/volatile/sites/3/2016/02/100547.jpg" style="width:33%" onclick="onClick(this)" >
+			<p class = w3-thirdtext>Peter Capaldi as the doctor</p>
+      <img src="https://i.ytimg.com/vi/z8lBEoPi6OY/maxresdefault.jpg" style="width:33%" onclick="onClick(this)" >
+			<p class = w3-thirdtext>David Tennant as the doctor</p>
+    </div>
+
+    <div class="w3-third">
+      <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2017%2F07%2Fdoctor-who-split.jpg" style="width:33%" onclick="onClick(this)" >
+      <img src="https://vignette.wikia.nocookie.net/tardis/images/7/70/ThreeDoctorsTDOTD.jpg/revision/latest?cb=20170423184235" style="width:33%" onclick="onClick(this)" >
+      <img src="http://thepit-se.com/wp-content/uploads/2013/11/the-day-of-the-doctor.jpg" style="width:33%" onclick="onClick(this)" >
+    </div>
+
+    <div class="w3-third">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Twice_Upon_a_Time_%28Doctor_Who%29.jpg" style="width:33%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555426418/shape/mentalfloss/dr_who_top.png" style="width:33%" onclick=a"onClick(this)" alt="A girl, and a train passing">
+      <img src="http://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_960/cwypxaqnh7jbpclrr6xs" style="width:33%" onclick="onClick(this)" alt="What a beautiful day!">
+    </div>
+  </div>
+
+<div class = "photogallery">
+	<h4>Here are my photos</h4>
+	<ul class = "photogalleryTitleGrid w3-third" data-view = "card">
+		<li class = "Groupcardphotogrid">
+			<img src="https://i.ytimg.com/vi/hMY8gBUwHEU/maxresdefault.jpg" style="width:33%" onclick="onClick(this)" alt="Canoeing again">
+			<p class = w3-thirdtext>Matt smith as the doctor</p>
+		</li>
+		<li class = "Groupcardphotogrid">
+			<img src="https://images.immediate.co.uk/production/volatile/sites/3/2016/02/100547.jpg" style="width:33%" onclick="onClick(this)" >
+			<p class = w3-thirdtext>Peter Capaldi as the doctor</p>
+		</li>
+		<li class = "Groupcardphotogrid">
+			<img src="https://i.ytimg.com/vi/z8lBEoPi6OY/maxresdefault.jpg" style="width:33%" onclick="onClick(this)" >
+			<p class = w3-thirdtext>David Tennant as the doctor</p>
+		</li>
+		<li class = "Groupcardphotogrid">
+			<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2017%2F07%2Fdoctor-who-split.jpg" style="width:33%">
+		</li>
+		<li class = "Groupcardphotogrid">
+			<img src="https://vignette.wikia.nocookie.net/tardis/images/7/70/ThreeDoctorsTDOTD.jpg/revision/latest?cb=20170423184235"  style="width:33%">
+		</li>
+		<li class = "Groupcardphotogrid">
+			<img src="http://thepit-se.com/wp-content/uploads/2013/11/the-day-of-the-doctor.jpg" style="width:33%">
+		</li>
+		<li class = "Groupcardphotogrid">
+			<img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Twice_Upon_a_Time_%28Doctor_Who%29.jpg" style="width:33%">
+		</li>
+		<li class = "Groupcardphotogrid">
+  		<img src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555426418/shape/mentalfloss/dr_who_top.png" style="width:33%">
+		</li>
+		<li class = "Groupcardphotogrid">
+  		<img src="http://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_960/cwypxaqnh7jbpclrr6xs" style="width:33%">
+		</li>
+	</ul>
+</div>
+
+
+	<!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="pagebar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">&laquo;</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">&raquo;</a>
+    </div>
+  </div>
+
+
+
+<!--Social Media-->
+<div class = "Socialmedia" id = #contact>
+<p>For more photos, follow my instagram page, @jpweatherill_photos</p>
+	<a href = "https://bbc.co.uk">
+		<img class = "socialmedialink" src = "https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png">
+	</a>
+</div>
+
+
+</body>
+</html>
